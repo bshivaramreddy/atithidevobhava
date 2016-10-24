@@ -1,0 +1,275 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Behest Buy</title>
+<link href="css/style.css" rel="stylesheet">
+<script src="js/modernizr.custom.66932.js"></script>
+</head>
+
+<body>
+<div id="home"> 
+  <!--Header Section-->
+  <header class="clearfix"> 
+    <!--Top Header Section-->
+    <div class="top_header clearfix">
+      <div class="container_bb">
+        <div class="grid_12 clearfix">
+          
+          <div class="wel-msg f-right"> <marquee>In case of emergency, call 101. We are here to serve.</marquee></div>
+        </div>
+      </div>
+    </div>
+    
+    <!--Bottom Header Section-->
+    <div class="header clearfix">
+      <div class="container_bb" style="background-image :url('img/rooms/fire-banner.jpg'); background-repeat: no-repeat; background-size : 1150px 140px;">
+        <!--Logo Section-->
+          <div class="grid_3">
+              <a href="#"><img width="130px" height="130px" alt="facebook" src="img/rooms/aplogo.png"></a>
+          </div>
+          <div class="grid_3">
+              <h1 style="color: #de5f43; text-shadow: 1px 1px #f6f858; font-weight : 700; text-transform : uppercase; font-size: 27px;">Andhra Pradesh State Disaster Response And Fire Services Dept.</h1>
+          </div>
+          <!--<div class="grid_3" style="float:right; text-shadow: 2px 2px #f6f858; font-weight : 700">
+              <h2 style="color: #de5f43;">We are here to serve</h2>
+          </div>-->
+    </div>
+    </div>
+  </header>
+  
+  <!--Navigation Section-->
+  <nav class="container_bb">
+  	<div class="grid_12">
+        <ul class="megamenu">
+            <li>            
+            	<a href="javascript:void(0)">Home</a>
+            </li>
+            <li>
+                <a href="javascript:void(0)">About Us</a>
+            </li>
+            <li>
+                <a href="javascript:void(0)">RTI Act</a>
+            </li>
+             <li>
+            	<a href="javascript:void(0)">Organization</a>
+            	<ul class="dropdown">
+                    <li><a href="javascript:void(0)">Executive Staff</a></li>
+                    <li><a href="javascript:void(0)">Ministerial Staff</a></li>
+                    <li><a href="javascript:void(0)">Deputation Posts</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:void(0)">Offices</a>
+                <ul class="dropdown">
+                    <li><a href="javascript:void(0)">Head Office</a></li>
+                    <li><a href="javascript:void(0)">Regional Office</a></li>
+                    <li><a href="javascript:void(0)">District Offices</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:void(0)">ManPower</a>
+                <ul class="dropdown">
+                    <li><a href="javascript:void(0)">Executive staff</a></li>
+                    <li><a href="javascript:void(0)">Ministerial staff</a></li>
+                    <li><a href="javascript:void(0)">Civil Defence Training</a></li>
+                    <li><a href="javascript:void(0)">Deputation other Organization</a></li>
+                </ul>
+            </li>
+            <li>
+            	<a href="javascript:void(0)">Fire Statistics</a>
+            </li>
+            <li>
+                <a href="javascript:void(0)">Fire Service Acts & Rules</a>
+                <ul class="dropdown">
+                    <li><a href="javascript:void(0)">Acts</a></li>
+                    <li><a href="javascript:void(0)">Rules</a></li>
+                </ul>
+            </li>
+              <li>            
+            	<a href="javascript:void(0)">GO's & Circulars</a>
+            </li>
+          
+          
+            <li class="right dealofday"><a href="javascript:void(0)">Login</a></li>
+        </ul>
+    </div>
+  </nav>
+  
+  <!--Content Section-->
+  <section class="container_bb">
+        <!--Banner Section-->
+        <div class="main-slider clearfix">
+            <div class="grid_3" style="width:217px">
+                <ul class="sidebar">
+                    <li><a href="#">Academy</a></li>
+                    <li><a href="#">Articles</a></li>
+                    <li><a href="#">Archive</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">Downloads</a></li>
+                    <li><a href="#">Do's & Dont's</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Fire Prevention & Protection</a></li>
+                    <li><a href="#">Employee Corner</a></li>
+                    <li><a href="#">Key Contacts</a></li>
+                    <li><a href="#">Tender</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">FAQ'S</a></li>
+                </ul>
+            </div>
+            <div class="grid_8">
+            	<ul class="bbslider">
+                    <li><img width="727px" height="413" src="img/rooms/fire1.jpg" title="Image title goes here" /></li>
+                    <li><img width="727px" height="413" src="img/rooms/fire2.jpg" title="Image title goes here" /></li>
+                    <li><img width="727px" height="413" src="img/rooms/fire4.jpg" title="Image title goes here" /></li>
+                    <li><img width="727px" height="413" src="img/rooms/fire5.jpg" title="Image title goes here" /></li>
+                    <li><img width="727px" height="413" src="img/rooms/fire6.jpg" title="Image title goes here" /></li>
+                    <li><img width="727px" height="413" src="img/rooms/fire7.jpg" title="Image title goes here" /></li>
+                </ul>
+            </div>
+            <div class="grid_3">
+            	<div class="bids-panel">
+                	<img width="209" height="180" src="img/rooms/cm.jpeg" title="Slide1" />
+                    <p style="text-align: center; vertical-align: middle; line-height: 18px;">
+                    <span style="font-family: arial; font-size: 14px; color: #de5f43; font-weight: bold;">
+                        Sri. Nara Chandra Babu Naidu
+                    </span>
+                    <br>
+                    <span style="font-family: arial; font-size: 12px; color: ##555; font-weight: bold;">
+                        Hon'ble Chief Minister
+                        <br>
+                        Government of Andhra Pradesh
+                    </span>
+                    </p>
+                </div>
+                
+                <div class="notifications">
+                    <h3 class="title">Latest Updates</h3>
+                    <div style="padding-top:30px; padding-left : 10px;">
+                        <ol>
+                            <li>
+                                Minutes of the 4th SLC meeting held on 22.06.2015
+                            </li>
+                            <li>
+                                Minutes of the 4th SLC meeting held on 22.06.2015
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+  	    <!-- Body Content-->	    
+        <div class="acc-panel clearfix">
+            <h3 class="ptitle"> Welcome to Fire Service Department</h3>
+            <p>
+                The Andhra Pradesh Fire service is one of the fire Brigade networks in India with 232 fire stations spread over the length and breadth of Andhra Pradesh.
+                The activities of the department are mainly connected with fire prevention and fire extinction.
+                It is a humanitarian service dedicated to the saving of life and property and available to public at all times.
+                In a broader perspective the present role of fire service department is:
+            </p>
+            <!--Orders Section-->
+        	<div id="orders">
+            	<h3 class="ptitle">Introduction:</h3>
+                <ul>
+                    <li>
+                        During the Second World War, the Air Raid precaution Organization was established as a Civil Defence Measure. In the year 1942, this Organization was converted into the Fire Service Department with full time staff and appliances.
+                    </li>
+                    <li>
+                        The Andhra Pradesh Fire Service Act, 1999 came into effect from 1st February, 2001.
+                    </li>
+                    <li>
+                        The Andhra Pradesh Fire and Emergency Operations and Levy of Fee Rules, 2006 was issued in G.O. Ms.No.306, Home (Prisons. A) Department, Dated 7.12.2006 and published in A. P. Gazette No. 74, Dated 8.12.2006.
+                    </li>
+                </ul>
+
+            </div>
+        
+    </div>
+      
+        <!--Clients Section-->
+        <div class="grid_12 clearfix">
+        	<div class="client-panel">
+                <ul class="client-list">
+                    <li><a href="#"><img src="img/rooms/ico_eApproval.png"> <span>e-apply</span></a> </li>
+                    <li><a href="#"><img src="img/rooms/forum.png"> <span>Press Releases</span></a> </li>
+                    <li><a href="#"><img alt="" src="img/rooms/ap-states-b.png"> <span>Profiles of AP</span></a> </li>
+                    <li><a href="#"><img src="img/rooms/gallery.png"> <span>Gallery</span></a> </li>
+                    <li><a href="#"><img src="img/rooms/gov-orders.png"><span>Govt. Orders</span></a></li>
+                </ul>
+            </div>
+        </div>
+  </section>
+  
+  <!--Footer Section-->
+  <footer class="container_bb">
+		<div class="grid_12 footer clearfix">
+         	<!--Social Network Section-->
+        	<div class="social-links">
+            	<ul>
+                	<li><a href="javascript:void(0)"><i class="fa fa-facebook"></i> Facebook</a></li>
+                    <li><a href="javascript:void(0)"><i class="fa fa-pinterest"></i> Pinterest</a></li>
+                    <li><a href="javascript:void(0)"><i class="fa fa-google-plus"></i> Google+</a></li>
+                    <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i> Twitter</a></li>
+                    <li><a href="javascript:void(0)"><i class="fa fa-youtube"></i> Youtube</a></li>
+                </ul>
+            </div>
+            
+         	<!--Copyrights Section-->
+            <div class="footer-nav clearfix">
+            	<div class="grid_3 omega">
+                    <div class="pad10">
+                        <h3>Information</h3>
+                        <ul>
+                            <li><a href="javascript:void(0)">Home</a></li>
+                            <li><a href="javascript:void(0)">About us</a></li>
+                            <li><a href="javascript:void(0)">Gallery</a></li>
+                            <li><a href="javascript:void(0)">Site Map</a></li>
+                            <li><a href="javascript:void(0)">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="grid_4 omega">
+                	<div class="contact">
+                        <h3>Emergency Contacts</h3>
+                        <ul>
+                            <li><span class="fa fa-phone"> </span> Fire Services - 101</li>
+                            <li><span class="fa fa-phone"> </span> Police - 100</li>
+                            <li><span class="fa fa-phone"> </span> Blood Bank - 040 23221748</li>
+                            <li><span class="fa fa-phone"> </span> Ambulance - 102</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="grid_3">
+                	<div class="pad10">
+                        <h3>Feedback</h3>
+                        <p class="mb20">Get the word out. Share your valuable feedback...</p>
+                        <div class="newsletter clearfix">
+                            <textarea name="newsletter" placeholder="Your feedback">
+                            </textarea>
+                            <input type="submit" name="submit" value="Submit">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!--Copyrights Section-->
+            <div class="copyrights clearfix">
+            	<div class="copyrights-left">
+                	<p>Powered By <a href="javascript:void(0)">BSR Technologies.</a></p>
+					<p>All rights reserved by <a href="javascript:void(0)">Government of Andhra Pradesh.</a></p>
+                </div>
+                
+          </div>
+        </div>
+  </footer>
+</div>
+<!-- Scripts Section --> 
+<script src="js/jquery-1.8.2.min.js"></script> 
+<script src="js/jquery-ui-1.10.3.custom.js"></script> 
+<script src="js/megamenu.js"></script> 
+<script src="js/jquery.bxslider.js"></script>
+<script src="js/bbcore.js"></script>
+</body>
+</html>
