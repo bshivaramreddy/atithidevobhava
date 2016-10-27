@@ -299,7 +299,7 @@ h4.media-heading, h4.media-heading a {
 .footer-nav li:hover,.footer-nav li:hover a,.contact span:hover {color:#E76D66;padding-left:5px;}
 .footer-nav li a:hover,.footer-nav li:hover a {color:#E76D66;padding-left:0px;}
 
-.contact {padding:10px 30px;}
+/*.contact {padding:10px 30px;}*/
 .contact span{border: 2px solid #808080;
 border-radius: 50%;
 display: inline-block;
