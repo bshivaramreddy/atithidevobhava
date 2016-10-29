@@ -168,15 +168,17 @@
 <script src="js/lightgallery.min.js"></script>
 <script src="js/lg-thumbnail.min.js"></script>
 <script src="js/lg-fullscreen.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPvbVorELehcmfzz42r0SVygZ3QqsC_Hc&callback=singleMap" async defer></script>
 <script type="text/javascript">
     $(document).ready(function() {
         $("#lightgallery").lightGallery({
             thumbnail:true,
         });
-        singleMap('15.35062', '76.49235');//Call generate map function with latitude and longitude on page load
+        //singleMap('15.35062', '76.49235');//Call generate map function with latitude and longitude on page load
     });
     function singleMap(latitude, longitude) {
+    var latitude = '15.35062';
+    var longitude = '76.49235';
     var location = 'ANEGUNDI VILLAGE, GANGAVATHI TALUK, KOPPAL DISTRICT, KARNATAKA - 583227';//Define address
     var map = new google.maps.Map(document.getElementById('contact_map'), {
         zoom: 12,
