@@ -90,7 +90,7 @@ $(function () {
 		e.preventDefault();
 		});
 	});
-	
+
 	//Main Banner Slider
 	$('.bbslider').bxSlider({
 	  	infiniteLoop: true,

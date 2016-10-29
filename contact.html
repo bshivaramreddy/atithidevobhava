@@ -7,20 +7,15 @@
     <title>Atithi Devo Bhava</title>
     <link href="css/style.css" rel="stylesheet">
     <script src="js/modernizr.custom.66932.js"></script>
+    <style>
+        #contact_map {width: 100%;height: 300px;margin-bottom: 15px;border-radius: 5px;}
+    </style>
 </head>
 
 <body>
 <div id="home">
     <!--Header Section-->
     <header class="clearfix">
-        <!--Top Header Section-->
-        <!-- <div class="top_header clearfix">
-           <div class="container_bb">
-             <div class="grid_12 clearfix">
-               <div class="wel-msg"> <marquee>Where staying is heaven.</marquee></div>
-             </div>
-           </div>
-         </div>-->
 
         <!--Bottom Header Section-->
         <div class="header clearfix">
@@ -72,73 +67,31 @@
     <section class="container_bb">
         <div class="acc-panel clearfix">
             <div class="pageheader">
-                <h3 class="title-lred">Gallery</h3>
+                <h3 class="title-lred">Contact us</h3>
             </div>
-            <div id="lightgallery">
-                <a href="img/gallery/1.JPG" data-sub-html="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa">
-                    <img src="img/gallery/1_tn.jpg" />
-                </a>
-                <a href="img/gallery/2.JPG">
-                    <img src="img/gallery/2_tn.jpg" />
-                </a>
-                <a href="img/gallery/3.JPG">
-                    <img src="img/gallery/3_tn.jpg" />
-                </a>
-                <a href="img/gallery/4.JPG">
-                    <img src="img/gallery/4_tn.jpg" />
-                </a>
-                <a href="img/gallery/6.JPG">
-                    <img src="img/gallery/6_tn.jpg" />
-                </a>
-                <a href="img/gallery/7.JPG">
-                    <img src="img/gallery/7_tn.jpg" />
-                </a>
-                <a href="img/gallery/24.JPG">
-                    <img src="img/gallery/24_tn.jpg" />
-                </a>
-                <a href="img/gallery/24.JPG">
-                    <img src="img/gallery/24_tn.jpg" />
-                </a>
-                <a href="img/gallery/25.JPG">
-                    <img src="img/gallery/25_tn.jpg" />
-                </a>
-                <a href="img/gallery/26.JPG">
-                    <img src="img/gallery/26_tn.jpg" />
-                </a>
-                <a href="img/gallery/27.jpg">
-                    <img src="img/gallery/27_tn.jpg" />
-                </a>
-                <a href="img/gallery/28.jpg">
-                    <img src="img/gallery/28_tn.jpg" />
-                </a>
-                <a href="img/gallery/29.jpg">
-                    <img src="img/gallery/29_tn.jpg" />
-                </a>
-                <a href="img/gallery/30.jpg">
-                    <img src="img/gallery/30_tn.jpg" />
-                </a>
-                <a href="img/gallery/31.jpg">
-                    <img src="img/gallery/31_tn.jpg" />
-                </a>
-                <a href="img/gallery/32.jpg">
-                    <img src="img/gallery/32_tn.jpg" />
-                </a>
-                <a href="img/gallery/33.jpg">
-                    <img src="img/gallery/33_tn.jpg" />
-                </a>
-                <a href="img/gallery/34.jpg">
-                    <img src="img/gallery/34_tn.jpg" />
-                </a>
-                <a href="img/gallery/35.jpg">
-                    <img src="img/gallery/35_tn.jpg" />
-                </a>
-                <a href="img/gallery/36.jpg">
-                    <img src="img/gallery/36_tn.jpg" />
-                </a>
-                <a href="img/gallery/37.jpg">
-                    <img src="img/gallery/37_tn.jpg" />
-                </a>
+            <div class="contactus-list">
+                <div class="media blue">
+                    <div class="media-body">
+                        <h4 class="media-heading">Atithi Devo Bhava Heritage Homes</h4>
+                        <div class="contact">
+                            <ul>
+                                <li style="display:block;"><span class="fa fa-map-marker"> </span>Anegundi (V), Gangavathi (T), Koppal (D), Karnataka - 583227</li>
+                                <li style="display:block;"><span class="fa fa-mobile-phone"> </span>Phone: +91 8277763185</li>
+                                <li style="display:block"><span class="fa fa-envelope"> </span> Email: <a href="mailto:atithidevobhava@gmail.com" target="_blank">atithidevobhava@gmail.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="media green">
+                    <div class="media-body">
+                        <h4 class="media-heading">How To Reach Us !</h4>
+                        <p>This is a sample text, It will be replace original.</p>
+                    </div>
+                </div>
             </div>
+            <div id="contact_map"></div>
+            <!--<iframe src="https://www.google.com/maps/d/embed?mid=1UNq6vufX2Mjtngo4UltEXdmL-8w" width="640" height="480"></iframe>-->
         </div>
     </section>
 
@@ -215,12 +168,52 @@
 <script src="js/lightgallery.min.js"></script>
 <script src="js/lg-thumbnail.min.js"></script>
 <script src="js/lg-fullscreen.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js"></script>
 <script type="text/javascript">
     $(document).ready(function() {
         $("#lightgallery").lightGallery({
             thumbnail:true,
         });
+        singleMap('15.35062', '76.49235');//Call generate map function with latitude and longitude on page load
     });
+    function singleMap(latitude, longitude) {
+    var location = 'ANEGUNDI VILLAGE, GANGAVATHI TALUK, KOPPAL DISTRICT, KARNATAKA - 583227';//Define address
+    var map = new google.maps.Map(document.getElementById('contact_map'), {
+        zoom: 12,
+        center: new google.maps.LatLng(latitude, longitude),
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    });//initialize map and set options
+
+    var infowindow = new google.maps.InfoWindow();
+    var marker;
+    if (location == "") {
+        return false;
+    }
+
+    //initialize marker
+    marker = new google.maps.Marker({
+        position: new google.maps.LatLng(latitude, longitude),
+        map: map
+    });
+
+    marker.setIcon('http://maps.google.com/mapfiles/ms/icons/red-dot.png');//set marker icon
+    var i = 0;
+    google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+            var str = setMarker(location);
+            infowindow.setContent(str);
+            infowindow.open(map, marker);
+        }
+    })(marker, i));
+}
+
+//Function for generate marker and show address in marker box
+function setMarker(location) {
+    var str = '<div style="width:100%">';
+    str += '<div  style="float:left;text-align: center;width:100%;">' + location + '</div>';
+    str += '</div>';
+    return str;
+}
 </script>
 </body>
 </html>
